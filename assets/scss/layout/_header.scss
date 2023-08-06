@@ -1,4 +1,56 @@
 .header{
-  background: $primary;
+  background-color: $primary;
   color: $white;
+
+  .logo {
+    width: 80px;
+    height: 48.57px;
+  }
+}
+
+.nav {
+  @media(max-width: $mobile) {
+    justify-content: start;
+  }
+}
+
+.nav-item {
+  a {
+    color: $white;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media(max-width: $tablet) {
+  .header .container {
+    padding: 0 36px;
+  }
+}
+
+@media(max-width: $mobile) {
+  .header {
+    padding-bottom: 0;
+
+    .container {
+      flex-direction: column;
+      align-items: start;
+      padding: 0;
+    }
+
+    .logo {
+      margin: 0 0 16px 16px;
+    }
+  }
+
+  .nav-item {
+    width: 50%;
+    border: 1px solid $white;
+    padding: 12px 62px;
+
+    a {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
 }
