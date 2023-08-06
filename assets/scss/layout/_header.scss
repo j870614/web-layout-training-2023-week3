@@ -8,12 +8,6 @@
   }
 }
 
-.nav {
-  @media(max-width: $mobile) {
-    justify-content: start;
-  }
-}
-
 .nav-item {
   a {
     color: $white;
@@ -41,6 +35,10 @@
     .logo {
       margin: 0 0 16px 16px;
     }
+  }
+
+  .nav {
+    justify-content: start;
   }
 
   .nav-item {
