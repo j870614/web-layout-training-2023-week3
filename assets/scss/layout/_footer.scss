@@ -1,4 +1,38 @@
 .footer{
-  background: #69F0AE;
-  font-size: 64px;
+  background: $primary;
+  color: $white;
+  padding-top: 48px;
+  padding-bottom: 32px;
+
+}
+
+.menu-item {
+  a {
+    color: $white;
+    font-size: 16px;
+  }
+}
+
+.sms-item {
+  width: 48px;
+}
+
+.contact {
+  padding: 24px 0 32px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid $white;
+
+  p {
+    font-size: 32px;
+    line-height: 54px;
+    font-family: 'Noto Sans TC', serif;
+    font-weight: 400;
+  }
+}
+
+.copyright {
+  a {
+    font-size: 14px;
+    color: $white;
+  }
 }
