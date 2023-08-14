@@ -1,0 +1,31 @@
+.fqa {
+  margin-top: 96px;
+  margin-bottom: 48px;
+  max-width: 856px;
+}
+
+.fqa__content {
+  li {
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: $tablet) {
+  .fqa {
+    margin-top: 80px;
+    margin-bottom: 48px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .fqa {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .fqa__content {
+    li {
+      margin-bottom: 24px;
+    }
+  }
+}
