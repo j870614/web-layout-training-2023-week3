@@ -56,7 +56,9 @@
     padding-bottom: 24px;
 
     .footer__main {
-      align-items: start;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
     }
   }
 
