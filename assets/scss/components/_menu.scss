@@ -1,0 +1,42 @@
+.product-menu {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.product-menu__item {
+  width: 34%;
+  border: 1px solid #DCDCDC;
+  padding: 24px 0px;
+  text-align: center;
+  a {
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: $medium;
+    color: $black;
+  }
+}
+
+.product-menu__item--active  {
+  border-bottom: 8px solid $primary;
+}
+
+@media (max-width: $tablet) {
+  .product-menu {
+    margin: 0;
+  }
+  .product-menu__item {
+    padding: 16px 0px;
+    a {
+    font-size: 24px;
+    }
+  }
+  
+}
+
+@media (max-width: $mobile) {
+  .product-menu__item {
+    a {
+    font-size: 16px;
+    }
+  }
+}
