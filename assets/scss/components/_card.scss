@@ -1,0 +1,24 @@
+.card__content {
+  display: flex;
+  justify-content: space-between;
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .price {
+    color: #AA0601;
+    font-size: 24px;
+    font-weight: $medium;
+  }
+}
+
+.card__color-choose {
+  display: flex;
+  .color {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    border-radius: 4px;
+  }
+}

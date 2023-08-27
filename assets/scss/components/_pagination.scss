@@ -1,0 +1,48 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.page-item {
+  padding: 12px;
+  border: 1px solid #555555;
+  
+
+  &:hover {
+    background: #F2F2F2;
+  }
+
+  .page-link {
+    color: #555555;
+    font-size: 18px;
+  }
+}
+
+.page-item--active {
+  background-color: #000000;
+  .page-link {
+    color: #FFFFFF;
+  }
+}
+
+@media (max-width: $tablet) {
+  .pagination {
+    margin-top: 40px;
+  }
+
+  .page-item {
+    padding: 12px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .pagination {
+    margin-bottom: 64px;
+  }
+
+  .page-link {
+    font-size: 16px;
+  }
+}
+
